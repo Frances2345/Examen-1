@@ -1,10 +1,10 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public abstract class SceneAdministation : MonoBehaviour
+public class SceneAdministation : MonoBehaviour
 {
     public float timer = 0;
-    protected abstract string NextSceneName { get; }
+    protected string NextSceneName;
 
     void Start()
     {
